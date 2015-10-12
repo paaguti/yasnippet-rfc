@@ -17,5 +17,7 @@ This is a simple collection of snippets to create Internet Drafts, RFCs, etc. us
 
 There you are. Explore the snippets... They should appear as a separate submenu in the nxml-mode snippet menu. For your reference, I have cloned my ~/.emacs.d directory with the relevant files only.
 
+I use nxml-mode to edit XML files and therefore my snippets are located where they are. If you happen to use another mode, customise your installation and please let me know.
+
 Enjoy and please, improve and contribute back :-)
 

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: <!ENTITY > for RFC
+# key: entid
+# type: snippet
+# --
+<!ENTITY I-D.${1:idref} SYSTEM
+ 'http://xml.resource.org/public/rfc/bibxml3/reference.I-D.$1.xml'>
+$0

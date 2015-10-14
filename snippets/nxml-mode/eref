@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: <eref> for RFC
+# key: eref
+# type: snippet
+# --
+<eref target='${1:URL}'>${2:Title}</eref>$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: <list> for RFC
+# key: xlist
+# type: snippet
+# --
+<list${1:$(if-non-empty " style=")}${1:"numbers"}${2:$(if-non-empty " hangIndent=")}${2:"indent"}${3:$(if-non-empty " counter=")}${3:="counter"}>
+	$0
+</list>

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: rfc
+# name: RFC/Draft skeleton
 # key: rfc
 # type: snippet
 # --
@@ -31,9 +31,10 @@
     <title abbrev="${4:abbrev title}">${5:long title}</title>
 	<!-- include author(s) here -->
     <date `(format-time-string "year=\\"%Y\\" month=\\"%B\\" day=\\"%d\\"")`/>
-      ${6:$(if-else-empty "<!-- <area/> -->" "<area>")}${6:Area}${6:$(if-non-empty "</area>")}
-      ${7:$(if-else-empty "<!-- <workgroup/> -->" "<workgroup>")}${7:Workgroup}${7:$(if-non-empty "</workgroup>")}
+      ${6:$(if-empty "<!-- <area/> -->" "<area>")}${6:Area}${6:$(if-non-empty "</area>")}
+      ${7:$(if-empty "<!-- <workgroup/> -->" "<workgroup>")}${7:Workgroup}${7:$(if-non-empty "</workgroup>")}
 <!-- include keywords here -->
+      ${8:$(if-empty "<!-- <keyword/> -->" "<keyword>")}${7:Keyword}${7:$(if-non-empty "</keyword>")}
     <abstract>
 	$0
 	</abstract>
@@ -46,7 +47,7 @@
       &RFC2119;
     </references>
     <references title="Informative References">
-     <!-- &I-D.ietf-sfc-dc-use-cases; -->
+     <!-- example: &I-D.ietf-sfc-dc-use-cases; -->
 	 <!-- include other bibrefs here -->
     </references>
   </back>

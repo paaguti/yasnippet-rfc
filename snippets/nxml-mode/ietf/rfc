@@ -31,8 +31,8 @@
     <title abbrev="${4:abbrev title}">${5:long title}</title>
 	<!-- include author(s) here -->
     <date `(format-time-string "year=\\"%Y\\" month=\\"%B\\" day=\\"%d\\"")`/>
-      ${6:$(if-else-empty "<!-- <area/> -->" "<area>")}${6:Area}${6:$(if-non-empty "</area>")}
-      ${7:$(if-else-empty "<!-- <workgroup/> -->" "<workgroup>")}${7:Workgroup}${7:$(if-non-empty "</workgroup>")}
+      ${6:$(if-empty "<!-- <area/> -->" "<area>")}${6:Area}${6:$(if-non-empty "</area>")}
+      ${7:$(if-empty "<!-- <workgroup/> -->" "<workgroup>")}${7:Workgroup}${7:$(if-non-empty "</workgroup>")}
 <!-- include keywords here -->
     <abstract>
 	$0

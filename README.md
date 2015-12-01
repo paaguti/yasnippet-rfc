@@ -5,7 +5,7 @@ This is a simple collection of snippets to create Internet Drafts, RFCs, etc. us
 
 ## Dependencies
 
-* Emacs >= 24
+* Emacs >= 24.4
 * yasnippet
 
 ## Installation

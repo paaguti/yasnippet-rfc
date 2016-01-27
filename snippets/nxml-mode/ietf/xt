@@ -2,6 +2,7 @@
 # name: <t> with attributes
 # key: xt
 # type: snippet
+# binding: C-c t
 # expand-env: ((yas-wrap-around-region t))
 # --
 <t${1:$(if-non-empty (yas-quote " anchor="))}${1:anchor}${1:$(if-non-empty (yas-quote))}${2:$(if-non-empty (yas-quote " hangText="))}${2:text}${2:$(if-non-empty (yas-quote))}>$0</t>

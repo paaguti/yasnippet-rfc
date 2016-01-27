@@ -34,7 +34,7 @@
       ${6:$(if-empty "<!-- <area/> -->" "<area>")}${6:Area}${6:$(if-non-empty "</area>")}
       ${7:$(if-empty "<!-- <workgroup/> -->" "<workgroup>")}${7:Workgroup}${7:$(if-non-empty "</workgroup>")}
 <!-- include keywords here -->
-      ${8:$(if-empty "<!-- <keyword/> -->" "<keyword>")}${7:Keyword}${7:$(if-non-empty "</keyword>")}
+      ${8:$(if-empty "<!-- <keyword/> -->" "<keyword>")}${8:Keyword}${8:$(if-non-empty "</keyword>")}
     <abstract>
 	$0
 	</abstract>

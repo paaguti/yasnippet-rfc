@@ -3,5 +3,5 @@
 # key: xrfc
 # type: snippet
 # --
-<xref target=\'${1:RFC}${2:rfc}\'>${1:$(if (string-equal "RFC" yas-text) "RFC " yas-text)}$2</xref>$0
+<xref anchor=\'${1:RFC}${2:rfc}\'>${1:$(if (string-equal "RFC" yas-text) "RFC " yas-text)}$2</xref>$0
 

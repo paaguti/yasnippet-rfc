@@ -3,4 +3,4 @@
 # key: eref
 # type: snippet
 # --
-<eref target='${1:URL}'>${2:Title}</eref>$0
+<eref target='${1:URL}'${2:$(yas-if-empty " />" ">")}${2:Title}${2:$(yas-if-not-empty "</eref>")}$0

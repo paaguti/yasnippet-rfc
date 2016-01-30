@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# name: <!ENTITY > for RFC
+# name: <!ENTITY > for RFC or I-D
 # key: entid
 # type: snippet
 # --
-<!ENTITY I-D.${1:idref} SYSTEM
- 'http://xml.resource.org/public/rfc/bibxml3/reference.I-D.$1.xml'>
+<!ENTITY ${1:$(if (string-equal yas-text "I-D") "I-D." "RFC")}$2 SYSTEM 'http://xml.resource.org/public/rfc/bibxml3/reference.${1:I-D}.${2:idref}.xml'>
 $0

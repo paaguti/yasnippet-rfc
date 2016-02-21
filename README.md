@@ -1,12 +1,12 @@
 # yasnippet-rfc
 Snippets to create RFCs with EMACS
 
-This is a simple collection of snippets to create Internet Drafts, RFCs, etc. using Emacs. 
+This is a simple collection of snippets to create Internet Drafts, RFCs, etc. using Emacs.
 
 ## Dependencies
 
 * Emacs >= 24.4
-* yasnippet
+* yasnippet-20160131.948
 
 ## Installation
 
